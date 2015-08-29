@@ -1,0 +1,81 @@
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS ... REALLLY HACKY LOL
+ *	
+ */
+
+body, section {			/* Change width and height to own preferences */
+	width: 665px;
+	height: 400px;
+	background-image: url('../img/graph.png');
+	color: #51326f;
+	overflow-x: hidden;
+}
+
+.box {
+	background-color: white;
+	padding: 15px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+	margin-bottom: 15px;
+}
+
+iframe {
+	width: 600px;
+	height: 350px;
+}
+
+
+li {
+	cursor: pointer;
+}
+
+form {
+	margin: 10px;
+	width: 79%;
+}
+
+/* Navbar */
+.navbar { 
+	margin-bottom: 20px; 
+	background-color: #6a478d; 
+	border-radius: 0;
+	border-color: #6a478d;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #d0c3dd;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #5D3A81
+}
+
+.navbar-nav>li:hover {
+	background-color: #5D3A81
+}
+
+.navbar-header:hover {
+	background-color: #5D3A81
+}
+
+.navbar-inverse .navbar-brand {
+  color: #d0c3dd;
+}
+
+#logo {
+	margin-left: 15px;
+	margin-right:15px;
+	width: 180px;
+	height: 50px;
+	background-image: url("https://app.datadoghq.com/static/images/datadog-logo.svg?v=32.521-1602");
+	background-size: 100% 33px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+
+/* Helpers */
+.hidden {
+	display: none;
+}
