@@ -2,7 +2,6 @@
 	"manifest_version": 2,
 	"name": "Restumble",
 	"version": "1.0",
-	"default_locale": "en",
 	"description": "StumbleUpon for your own bookmarks",
 	"icons": { 
 		"16": "img/icon16.png",
