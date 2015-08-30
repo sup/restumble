@@ -18,6 +18,9 @@
 	"web_accessible_resources": [
 		"img/icon128.png"
 	],
+	"permissions": [
+		"bookmarks"
+	],
 	"background": {
         "scripts": ["js/jquery-2.0.3.min.js", "js/hotkeys.js", "js/bookmarks.js"]
     }
