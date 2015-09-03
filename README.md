@@ -4,4 +4,4 @@ A Chrome extension that lets you rediscover your own bookmarks. Inspired by Stum
 
 ## Installation
 
-Download the files into a directoy, navigate to chrome://extensions and click "Load unpacked extension". Then select the folder containing these files.
+Download the files into a new folder, navigate to chrome://extensions and click "Load unpacked extension". Then select the folder containing these files.
