@@ -24,13 +24,6 @@
         "scripts": ["js/jquery-2.0.3.min.js", "js/hotkeys.js", "js/bookmarks.js"]
     },
     "commands": {
-      /*"toggle-feature-foo": {
-        "suggested_key": {
-          "default": "Ctrl+Shift+Y",
-          "mac": "Command+Shift+Y"
-        },
-        "description": "Delete curent bookmark and Restumble"
-      },*/
       "_execute_browser_action": {
         "suggested_key": {
           "windows": "Ctrl+Shift+Right",
