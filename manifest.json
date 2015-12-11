@@ -22,15 +22,5 @@
 	],
 	"background": {
         "scripts": ["js/jquery-2.0.3.min.js", "js/hotkeys.js", "js/bookmarks.js"]
-    },
-    "commands": {
-      "_execute_browser_action": {
-        "suggested_key": {
-          "windows": "Ctrl+Shift+Right",
-          "mac": "Command+Shift+Right",
-          "chromeos": "Ctrl+Shift+U",
-          "linux": "Ctrl+Shift+J"
-        }
-      }
     }
 }
