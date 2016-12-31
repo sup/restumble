@@ -11,9 +11,9 @@ chrome.browserAction.onClicked.addListener(function() {
 	});
 });
 
-// processNode: Recursively traverse bookmarks tree to 
+// processNode: Recursively traverse bookmarks tree to
 // create a flattened list
-// 
+//
 // requires: a bookmark treenode
 // returns: flattened list of urls
 function processNode(node) {
@@ -24,6 +24,8 @@ function processNode(node) {
 		node.children.forEach(function(childNode){
 			urls = urls.concat(processNode(childNode));
 		});
+		chrome.browserAction.setBadgeBackgroundColor({color:[190, 190, 190, 230]});
+		chrome.browserAction.setBadgeText({text:""+urls.length});
 		return urls;
 	}
 	// If we have a url, return it as a list to concatenate
